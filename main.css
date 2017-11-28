@@ -1,0 +1,105 @@
+body{
+    background: #CDCDC8;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 960px;
+    margin: auto;
+    background: #ffffff;
+    
+}
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: #ffffff;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5E5E5E, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5E5E5E, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5E5E5E, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5E5E5E, #000000); /* Standard syntax */
+}
+.navName {
+    grid-column-start: 1;
+    grid-column-end:6;
+}
+.leftColumn {
+
+}
+.biography {
+    font-family: "Times New Roman", Times, serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #DDDDDD;
+    border-width: 1px;
+}
+.bioleft {
+    
+}
+
+.bioright {
+
+}
+.nominations {
+    background: #DDD58F;
+    border-radius: 5px;
+    border-color: #DDDDDD;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.innernom {
+    padding: 1px;
+    
+    background: #fffffff;
+}
+.filmography {
+    border-radius: 10px;
+    border: solid;
+    border-color: #DFDFDF;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.contribute {
+    border-radius: 10px;
+    border: solid;
+    border-color: #DFDFDF;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.rightColumn {
+
+}
+
+.quicklinks {
+    background: #F2F2F1;
+    border-radius: 10px;
+    border-color: #DFDFDF;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.ocsardecorations {
+    padding: 5px;
+    background: #F2F2F1;
+    border-radius: 10px;
+    border-color: #DFDFDF;
+    border-width: 1px;
+    margin: 0px 10px 10px 0px;
+}
+
+.relatednews {
+    background: #F2F2F1;
+    border-radius: 10px;
+    border-color: #DFDFDF;
+    border-width: 1px;
+    margin: 10px;
+}
