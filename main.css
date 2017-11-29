@@ -1,5 +1,6 @@
 body{
     background: #CDCDC8;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .wrapper{
     display: grid;
@@ -16,6 +17,7 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
     color: #ffffff;
+    box-shadow: 0 5px 5px -2px gray;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#5E5E5E, #000000); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#5E5E5E, #000000); /* For Opera 11.1 to 12.0 */
@@ -30,7 +32,6 @@ body{
 
 }
 .biography {
-    font-family: "Times New Roman", Times, serif;
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 10px;
@@ -47,17 +48,17 @@ body{
 
 }
 .nominations {
-    background: #DDD58F;
+    display: grid;
+    background: #ffffff;
     border-radius: 5px;
-    border-color: #DDDDDD;
-    border-width: 1px;
-    margin: 10px;
+    border-color: #000000;
+    border-width: 10px;
+    margin: 6px;
 }
 
 .innernom {
-    padding: 1px;
-    
-    background: #fffffff;
+    border-radius: 10px;
+    background: #EFE69B;
 }
 .filmography {
     border-radius: 10px;
