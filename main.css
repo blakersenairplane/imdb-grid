@@ -1,8 +1,8 @@
-body{
+body {
     background: #CDCDC8;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-.wrapper{
+.wrapper {
     display: grid;
     grid-template-columns: 3fr 1fr;
     width: 960px;
@@ -11,6 +11,8 @@ body{
     
 }
 .nav {
+font-size: 15px; 
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -105,16 +107,21 @@ body{
     margin: 10px;
 }
 
+a {
+    color: grey;
+}
+
 dt { 
  color: blue;
- font-size: 13px; 
+ font-size: 13px;
+  
 }
 
 dd {
     color: grey;
     font-size: 11px; 
 }
-
+desc
 h1 { 
     color: brown;
 }
