@@ -104,3 +104,17 @@ body{
     border-width: 1px;
     margin: 10px;
 }
+
+dt { 
+ color: blue;
+ font-size: 13px; 
+}
+
+dd {
+    color: grey;
+    font-size: 11px; 
+}
+
+h1 { 
+    color: brown;
+}
