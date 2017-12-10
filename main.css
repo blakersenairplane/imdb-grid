@@ -121,7 +121,16 @@ dd {
     color: grey;
     font-size: 11px; 
 }
-desc
+
 h1 { 
     color: brown;
+}
+
+button {
+    color: 000; 
+    font-size: 30px;
+    background-color: yellow; 
+}
+button:hover {
+    background-color: white;
 }
