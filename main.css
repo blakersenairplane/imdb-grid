@@ -61,6 +61,10 @@ font-size: 15px;
 .innernom {
     border-radius: 10px;
     background: #EFE69B;
+    padding: 20px;
+    font-size: 16px;
+    height: 20px; 
+    vertical-align: middle;  
 }
 .filmography {
     border-radius: 10px;
@@ -127,7 +131,7 @@ h1 {
 }
 
 .nav {
-    
+    vertical-align: bottom; 
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(black, grey); /* For Opera 11.1 to 12.0 */
